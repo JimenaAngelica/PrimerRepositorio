@@ -1,0 +1,11 @@
+		*****FFLUSH*****
+fflush: limpia el buffer, generalmente va antes de un scanf,
+hay que indicarle el buffer a limpiar, stdin por ejemplo.
+Ejemplo:
+printf( "Introduzca primer caracter: " );
+   scanf( "%c", &a );
+   printf( "Introduzca segundo caracter: " );
+   fflush( stdin );
+   scanf( "%c", &b );
+   printf( "Introduzca tercer caracter: " );
+
