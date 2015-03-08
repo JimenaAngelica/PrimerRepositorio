@@ -6,6 +6,7 @@ printf( "Introduzca primer caracter: " );
    scanf( "%c", &a );
    printf( "Introduzca segundo caracter: " );
    fflush( stdin );
+   printf(“Mena”);
    scanf( "%c", &b );
    printf( "Introduzca tercer caracter: " );
 
